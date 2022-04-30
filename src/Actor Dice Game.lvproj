@@ -12,7 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actors" Type="Folder">
-			<Item Name="Dice.lvlib" Type="Library" URL="../Actors/Dice/Dice.lvlib"/>
+			<Item Name="Controller.lvlib" Type="Library" URL="../Actors/Controller/Controller.lvlib"/>
+			<Item Name="Error Handler.lvlib" Type="Library" URL="../Actors/Error Handler/Error Handler.lvlib"/>
+			<Item Name="UI.lvlib" Type="Library" URL="../Actors/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder"/>
 		<Item Name="Utils" Type="Folder">
@@ -36,6 +38,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
