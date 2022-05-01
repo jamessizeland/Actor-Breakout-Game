@@ -8,8 +8,8 @@
 
 </Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../Error Handler Messages/Initialize Msg/Initialize Msg.lvclass"/>
 		<Item Name="Log Error Msg.lvclass" Type="LVClass" URL="../Error Handler Messages/Log Error Msg/Log Error Msg.lvclass"/>
+		<Item Name="Set Response to Error Msg.lvclass" Type="LVClass" URL="../Error Handler Messages/Set Response to Error Msg/Set Response to Error Msg.lvclass"/>
 	</Item>
 	<Item Name="private types" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

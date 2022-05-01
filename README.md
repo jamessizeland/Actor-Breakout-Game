@@ -6,6 +6,12 @@ Experiment with the LabVIEW Actor Framework in 2021sp1 community edition.  Build
 
 ## Framework
 
+### VIPM Dependencies
+
+- Monitored Actors:  ^2.0.0.23 - [website link](https://www.mooregoodideas.com/actor-framework/monitored-actor/monitoring-actors/)
+
+- MGI Message Maker: - ^2.0.0.23
+
 ### Top-level
 
 ![top-level](./doc/toplevel.png)
